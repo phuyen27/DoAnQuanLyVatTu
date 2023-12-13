@@ -2,11 +2,11 @@
 -	Đồ án môn cấu trúc dữ liệu & giải thuật.
 -	Các cấu trúc dữ liệu của chương trình:
   
-    a.Danh sách VatTu : cây nhị phân tìm kiếm (MAVT, TENVT, Đơn vị tính, Số lượng tồn).
+    a.Danh sách VatTu : cây nhị phân tìm kiếm (materialID, materialName, unit, numberInStock).
 
     b.	Danh sách NhanVien : danh sách tuyến tính là một mảng con trỏ (nameEmployee, employeeID, gender, con trỏ billList): con trỏ billList sẽ trỏ đến danh sách các hóa đơn mà nhân viên đó đã lập. Danh sách nhân viên có tối đa 500 nhân viên.
  	
-    c.	Danh sách HoaDon : danh sách liên kết đơn(billID, createdDate, billType, con trỏ listBillDetail). Lọai chỉ nhận ‘I’ (phiếu nhập/input) hoặc ‘O’ (phiếu xuất/output); con trỏ listBillDetail sẻ trỏ đến danh sách chi tiết các vật tư của hóa đơn đó.
+    c.	Danh sách HoaDon : danh sách liên kết đơn(billID, createdDate, billType, con trỏ listBillDetail). billType chỉ nhận ‘I’ (phiếu nhập/input) hoặc ‘O’ (phiếu xuất/output); con trỏ listBillDetail sẻ trỏ đến danh sách chi tiết các vật tư của hóa đơn đó.
  	
     d.	Danh sách CT_HoaDon : danh sách liên kết đơn ( materialID, numberMaterial,unit, VAT).
  	
