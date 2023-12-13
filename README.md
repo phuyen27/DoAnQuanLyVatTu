@@ -2,8 +2,8 @@
 -	Đồ án môn cấu trúc dữ liệu & giải thuật.
 -	Các cấu trúc dữ liệu của chương trình:
   
-        o	Danh sách VatTu : cây nhị phân tìm kiếm (MAVT, TENVT, Đơn vị tính, Số lượng tồn)
-        o	Danh sách NhanVien : danh sách tuyến tính là một mảng con trỏ (MANV, HO, TEN, PHAI, con trỏ dshd): con trỏ dshd sẽ trỏ đến danh sách các hóa đơn mà nhân viên đó đã lập. Danh sách         nhân     viên có tối đa 500 nhân viên
+        - 	Danh sách VatTu : cây nhị phân tìm kiếm (MAVT, TENVT, Đơn vị tính, Số lượng tồn)
+        - 	Danh sách NhanVien : danh sách tuyến tính là một mảng con trỏ (MANV, HO, TEN, PHAI, con trỏ dshd): con trỏ dshd sẽ trỏ đến danh sách các hóa đơn mà nhân viên đó đã lập. Danh sách nhân     viên có tối đa 500 nhân viên
         o	Danh sách HoaDon : danh sách liên kết đơn(SoHD, Ngày lập hóa đơn, Loai, con trỏ cthd). Lọai chỉ nhận ‘N’ (phiếu nhập) hoặc ‘X’ (phiếu xuất); con trỏ cthd sẻ trỏ đến danh sách chi         tiết   các vật tư của hóa đơn đó.
         o	Danh sách CT_HoaDon : danh sách liên kết đơn ( MAVT, Soluong, Dongia, %VAT).
   
