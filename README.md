@@ -23,4 +23,5 @@
     e.	In danh sách nhân viên theo thứ tự tên nhân viên tăng dần, nếu trùng tên thì tăng dần theo họ ra màn hình, 1 nhân viên / dòng.
   
     f.	Xuất thông tin hóa đơn và chi tiết hóa đơn.
+ 	
  	  g.  Xuất chi phí từng hóa đơn.
