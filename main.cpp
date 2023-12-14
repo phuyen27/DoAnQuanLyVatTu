@@ -17,7 +17,7 @@ int main() {
         cout << "4. Nhap hoa don va chi tiet hoa don cua nhan vien\n";
         cout << "5. Xuat thong tin nhan vien theo thu tu ten\n";
         cout << "6. Xuat thong tin hoa don va chi tiet hoa don\n";
-        cout << "7. Xuat doanh thu cua tung hoa don\n";
+        cout << "7. Xuat chi phi cua tung hoa don\n";
         cout << "Ban hay nhap lua chon cua minh: ";
         cin >> userChoose;
         switch (userChoose) {
